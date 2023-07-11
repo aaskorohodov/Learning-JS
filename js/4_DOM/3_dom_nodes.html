@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <style>
+        td[data-cell-red="#CC0000"] {
+            background: #CC0000;
+        }
+        td[data-cell-red="lightRed"] {
+            background: #FF9999;
+        }
+    </style>
+</head>
+
+<body><!-- Comment --><h1>Header</h1>
+    <div id="myId" some_atr="some_value">Some text</div>
+
+    <table>
+        <tr>
+            <td cell-red="#CC0000">1</td><td cell-blue="#0000CC">2</td>
+            <td cell-red="#CC0000">3</td><td cell-blue="#0000CC">4</td>
+        </tr>
+        <tr>
+           <td cell-blue="#0000CC">5</td><td cell-red="#CC0000">6</td>
+           <td cell-blue="#0000CC">7</td><td cell-red="#CC0000">8</td>
+        </tr>
+    </table>
+
+    <p>---------</p>
+
+    <table>
+        <tr>
+            <td data-cell-red="#CC0000">1</td>
+            <td data-cell-blue="#0000CC">2</td>
+            <td data-cell-red="#CC0000">3</td>
+            <td data-cell-blue="#0000CC">4</td>
+        </tr>
+        <tr>
+            <td data-cell-blue="#0000CC">5</td>
+            <td data-cell-red="#CC0000">6</td>
+            <td data-cell-blue="#0000CC">7</td>
+            <td data-cell-red="#CC0000">8</td>
+        </tr>
+    </table>
+
+    <script src="3_dom_nodes.js"></script>
+</body>
+
+</html>

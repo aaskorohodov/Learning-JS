@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .message {
+            border: 20px solid #007700;
+            width: 300px;
+            height: 200px;
+            overflow: auto;
+            padding: 10px;
+            background: #eee;
+            font-size: 24px;
+            margin: 50px 0 0 100px;
+        }
+        #wnd {
+        	z-index: 999;
+        	position: fixed;
+        	width: 200px; 
+        	overflow: hidden;
+        	background: #CC0000;
+        	color: #eee;
+        	left: 100px;
+        	top: 50px;
+        	text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="message">
+        <h3>JavaScript</h3>
+        <p style="width:500px">
+        	In this lesson, we'll look at the metrics used to position elements and 
+        	their content on the browser screen. To better understand them, consider this figure.
+        </p>
+    </div>
+
+    <div id="wnd"><p>Some fixed element</div>
+
+<script src="6_positioning.js"></script>
+</body>
+</html>
