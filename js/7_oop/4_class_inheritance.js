@@ -4,3 +4,5 @@ class Prop {
         this.color = color;
     }
 }
+
+// some changes
